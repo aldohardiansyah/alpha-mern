@@ -1,0 +1,23 @@
+.input-wrapper {
+  .label {
+    font-size: 13px;
+    color: #444444;
+    margin: 0px;
+    margin-bottom: 5px;
+  }
+  .input {
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    font-size: 13px;
+    padding: 8px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #444444;
+  }
+  .input:focus {
+    border: 1px solid #828181;
+    background-color: #fafafa;
+    transition: all 0.3s ease-in-out;
+  }
+}

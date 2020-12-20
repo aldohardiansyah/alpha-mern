@@ -1,0 +1,28 @@
+.main-page {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.left {
+  flex: 1;
+  background-color: #62ddbd;
+  .bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.right {
+  width: 30vw;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .title-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444444;
+  }
+}

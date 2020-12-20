@@ -1,0 +1,11 @@
+.link-text {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.link-text:hover {
+  color: #848484;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
