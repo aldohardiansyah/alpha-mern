@@ -1,0 +1,28 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 80px;
+  background-color: #393939;
+  border-top: 1px solid #e2e2e2;
+
+  .logo-wrapper {
+    width: 60vw;
+    display: flex;
+    img {
+      width: 120px;
+      height: 30px;
+    }
+  }
+  .social-wrapper {
+    width: 40vw;
+    display: flex;
+    justify-content: flex-end;
+    .menu-item {
+      font-size: 12px;
+      font-weight: bolder;
+      color: #eeeeee;
+      margin: 0px 20px;
+      cursor: pointer;
+    }
+  }
+}
