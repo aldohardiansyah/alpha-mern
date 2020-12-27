@@ -3,21 +3,21 @@ import "./mainApp.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header, Footer } from "../../components";
 import Home from "../Home";
-import CreateNews from "../News/CreateNews";
-import DetailNews from "../News/DetailNews";
+import CreateNotes from "../Notes/CreateNotes";
+import DetailNotes from "../Notes/DetailNotes";
 
 const MainApp = () => {
   return (
     <div className="main-app-wrapper">
       <Header></Header>
-      <div className="content-wrapper">
+      <div className="body-wrapper">
         <Router>
           <Switch>
-            <Route path="/create-news">
-              <CreateNews></CreateNews>
+            <Route path="/create-notes">
+              <CreateNotes></CreateNotes>
             </Route>
-            <Route path="/detail-news">
-              <DetailNews></DetailNews>
+            <Route path="/detail-notes">
+              <DetailNotes></DetailNotes>
             </Route>
             <Route path="/">
               <Home></Home>

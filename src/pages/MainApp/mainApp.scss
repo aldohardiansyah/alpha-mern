@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-
-  .content-wrapper {
+  .body-wrapper {
     flex: 1;
-    padding: 20px 80px;
+
+    .content-wrapper {
+      padding: 20px 80px;
+    }
   }
 }
