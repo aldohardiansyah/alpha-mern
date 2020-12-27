@@ -7,10 +7,18 @@
   .create-wrapper {
     display: flex;
     justify-content: flex-end;
+    button {
+      width: 200px;
+    }
   }
-  .note-list-wrapper {
+  .notes-list-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .pagination-wrapper {
+    display: flex;
+    width: 400px;
+    margin: auto;
   }
 }

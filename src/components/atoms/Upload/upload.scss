@@ -1,0 +1,11 @@
+.upload-wrapper {
+  vertical-align: middle;
+  .preview-image {
+    width: 200px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    display: block;
+  }
+  .upload-button {
+  }
+}

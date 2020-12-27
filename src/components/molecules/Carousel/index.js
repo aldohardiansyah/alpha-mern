@@ -1,6 +1,6 @@
 import React from "react";
 import "./carousel.scss";
-import { LoginBg, RegisterBg } from "../../../assets";
+import { LoginBg } from "../../../assets";
 
 const Carousel = ({ label }) => {
   return (

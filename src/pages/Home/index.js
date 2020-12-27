@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, NotesItem } from "../../components";
+import { Button, Gap, NotesItem } from "../../components";
 import "./home.scss";
 
 function Home() {
@@ -9,6 +9,7 @@ function Home() {
         <div className="create-wrapper">
           <Button label="Create Notes"></Button>
         </div>
+        <Gap height={20}></Gap>
         <div className="notes-list-wrapper">
           <NotesItem></NotesItem>
           <NotesItem></NotesItem>
@@ -16,7 +17,9 @@ function Home() {
           <NotesItem></NotesItem>
         </div>
         <div className="pagination-wrapper">
-          <p>Pagination</p>
+          <Button label="Previous"></Button>
+          <Gap width={20}></Gap>
+          <Button label="Next"></Button>
         </div>
       </div>
     </div>
