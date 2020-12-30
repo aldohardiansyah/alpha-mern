@@ -1,0 +1,32 @@
+.detail-notes-wrapper {
+    margin: auto;
+    max-width: 50vw;
+    .note-image {
+        width: 100%;
+        max-height: 450px;
+        object-fit: cover;
+    }
+    .button-action {
+        width: 200px;
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    .title {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #5d5d5d;
+    }
+    .author {
+        margin: 0;
+        margin-top: 4px;
+        font-size: 12px;
+        color: #898989;
+    }
+    .body {
+        margin: 0;
+        margin-top: 18px;
+        font-size: 14px;
+        color: #5d5d5d;
+    }
+}
