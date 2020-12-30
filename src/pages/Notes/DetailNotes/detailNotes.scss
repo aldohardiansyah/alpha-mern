@@ -29,4 +29,12 @@
         font-size: 14px;
         color: #5d5d5d;
     }
+    .button-action {
+        width: 200px;
+        margin-left: auto;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

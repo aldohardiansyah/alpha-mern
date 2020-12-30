@@ -1,13 +1,13 @@
 import React from "react"
 import { useHistory } from "react-router-dom"
 import { Link, Button, Gap, Input, Textarea, Upload } from "../../../components"
-import "./createNotes.scss"
+import "./editNotes.scss"
 
-const CreateNotes = () => {
+const EditNotes = () => {
     const history = useHistory()
     return (
         <div className="content-wrapper create-notes-wrapper">
-            <p className="page-title">Creat New Notes</p>
+            <p className="page-title">Edit Notes</p>
             <Input label="Notes Title"></Input>
             <Gap height={20}></Gap>
             <Upload></Upload>
@@ -26,4 +26,4 @@ const CreateNotes = () => {
     )
 }
 
-export default CreateNotes
+export default EditNotes
